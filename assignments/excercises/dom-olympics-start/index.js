@@ -28,3 +28,67 @@ btn.addEventListener('click', function handleClick(){
     removeText.parentNode.removeChild(removeText);
 });
 
+
+var colorRight = document.getElementsByClassName("message right")
+    console.log(Array.from(colorRight));
+
+var colorLeft = document.getElementsByClassName("message left")
+    console.log(Array.from(colorLeft));
+
+// var colorSwitch = document.querySelectorAll("option")
+//     console.log(Array.from(colorSwitch))   
+    
+var value = selector.options[selector.selectedIndex].value;
+    console.log(value); 
+
+var dropColor = document.getElementById("selector");
+dropColor.addEventListener('click', function(){
+    if (value = "blue") {
+    for (var i = 0; i < colorRight.length; i++)
+        colorRight[i].style.backgroundColor = "blue";
+    } else if (value = "red") {
+        for (var i = 0; i < colorRight.length; i++)
+            colorRight[i].style.backgroundColor = "red";
+    // for (var i = 0; i < colorLeft.length; i++)
+    //     colorLeft[i].style.backgroundColor = "purple"
+    //  } else if (value = "red") {
+    // for (var i = 0; i < colorRight.length; i++)
+    //     colorRight[i].style.backgroundColor = "red";
+      
+    // for (var i = 0; i < colorLeft.length; i++)
+    //     colorLeft[i].style.backgroundColor = "black", colorLeft[i].style.color = "white"; 
+    // }
+    }
+
+
+}) 
+    
+
+
+
+    
+
+
+
+
+
+
+   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
